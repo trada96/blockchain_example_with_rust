@@ -1,0 +1,16 @@
+[package]
+name = "blockchain-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "1.0"
+chrono = { version = "0.4.6", features = ["serde"]}
+serde = { version = "1.0.90", features = ["derive"] }
+serde_json = "1.0"
+crypto-hash = "0.3.3"
+uuid = { version = "0.7", features = ["v4"] }
+urlparse = "0.7.3"
+reqwest = "=0.9.17"
